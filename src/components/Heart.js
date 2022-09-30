@@ -5,7 +5,16 @@ import MyProvider from "../context/Context";
 export default function Heart() {
 
   const photo = useContext(MyProvider)
+  const [dataPhoto, setDataPhoto] = useState([]);
+  useEffect(() => {
 
+    setDataPhoto([photo]);
+   
+  }, [photo]);
+  const handleFav = (liked, index) => {
+    photo[index].liked = !liked;
+    setDataPhoto([...dataPhoto])
+  }
 
   return (
     <>
