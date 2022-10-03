@@ -1,39 +1,40 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .App {
-    font-family: "Maitree", serif;
-    text-align: center;
-    color: #43a047;
+  font-family: "Maitree", serif;
+  text-align: center;
+  color: #43a047;
 }
 
 h1 {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .heart {
-    position: absolute;
+  position: absolute;
 }
 
 .galleryContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
 }
 
 .customCardContainer {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 .textPhoto {
-    width: 16rem;
-    position: absolute;
-    align-self: end;
-    color: #fdfdfd;
-    margin-right: 0.6rem;
-    font-size:1em;
+  width: 16rem;
+  position: absolute;
+  align-self: end;
+  color: #fdfdfd;
+  margin-right: 0.6rem;
+  font-size:1em;
 }
+
